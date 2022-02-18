@@ -22,6 +22,9 @@ switch ($route) {
     case 'ajout':
         include __DIR__ . '/controllers/ajout-article-controller.php';
         break;
+    case 'modif':
+        include __DIR__ . '/controllers/modif-article-controller.php';
+        break;
 
     default:
         error();
