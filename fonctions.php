@@ -24,3 +24,8 @@ function redirection(string $route)
     header('Location: ' . url($route));
     die;
 }
+function validateDate($date, $format = 'Y-m-d')
+{
+    $d = DateTime::createFromFormat($format, $date);
+    return $d && $d->format($format) == $date;
+}
