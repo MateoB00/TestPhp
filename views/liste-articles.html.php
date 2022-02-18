@@ -11,8 +11,8 @@ foreach ($articles as $article) { ?>
         <div class="card-body">
             <h5 class="card-title"><?= $article->titre ?></h5>
             <p class="card-text"><?php $contenu = $article->contenu;
-                                    echo substr($contenu, 0, 200) ?> ...</p>
-            <span><strong><?= $article->auteur ?> </strong></span><br>
+                                    echo substr($contenu, 0, 120) ?> ...</p>
+            <span><strong><?= mb_strtoupper($article->auteur) ?> </strong></span><br>
             <span>Ecrit le : <?= $article->date_de_publication ?></span>
             <a href="<?= url('article') ?>&id=<?= $article->id ?>" class="btn btn-info">L'article en profondeur</a>
         </div>

@@ -6,7 +6,7 @@
 <div class="text-center">
     <img src="<?= $article->image ?>" class="rounded" alt="Image d'un article">
     <p><?= $article->contenu ?></p>
-    <span><strong><?= $article->auteur ?> </strong></span><br>
+    <span><strong><?= mb_strtoupper($article->auteur) ?> </strong></span><br>
     <span>Ecrit le : <?= $article->date_de_publication ?></span>
 </div>
 
