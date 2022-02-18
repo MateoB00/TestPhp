@@ -1,6 +1,6 @@
 <?php
 
-include __DIR__ . '/parties/header.php'; ?>
+require_once __DIR__ . '/parties/header.php'; ?>
 
 <h1 class="d-flex justify-content-center">Mon super Projet</h1>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quam, voluptate iste vero totam pariatur quis placeat. Molestiae perferendis eum voluptates animi sunt expedita necessitatibus, eos quam, aut, rerum nesciunt?
@@ -23,4 +23,4 @@ include __DIR__ . '/parties/header.php'; ?>
 
 <?php
 
-include __DIR__ . '/parties/footer.php';
+require_once __DIR__ . '/parties/footer.php';

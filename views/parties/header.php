@@ -13,6 +13,7 @@
 <body>
     <nav class="nav justify-content-center">
         <a class="nav-link" href="<?= url("home") ?>">Accueil</a>
-        <a class="nav-link" href="#">#</a>
+        <a class="nav-link" href="<?= url("liste-articles") ?>">Liste de nos articles</a>
         <a class="nav-link" href="#"></a>
     </nav>
+    <div class="container">
