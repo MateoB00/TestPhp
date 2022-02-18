@@ -2,7 +2,7 @@
 
 include __DIR__ . '/parties/header.php'; ?>
 
-<h1>Mon super Projet</h1>
+<h1 class="d-flex justify-content-center">Mon super Projet</h1>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quam, voluptate iste vero totam pariatur quis placeat. Molestiae perferendis eum voluptates animi sunt expedita necessitatibus, eos quam, aut, rerum nesciunt?
     Nisi beatae similique magnam nulla qui? Molestiae deserunt minus beatae expedita dolores atque, officia doloremque perspiciatis animi ipsa aut consequatur, amet repellat, ut libero voluptate accusantium! Aut atque aliquid nihil?
     Placeat odit rem officiis inventore dignissimos quasi. Libero quos reprehenderit aperiam exercitationem aliquam! Ipsum culpa neque incidunt alias quisquam quas impedit voluptates vel vero! Laudantium fugit suscipit qui corporis itaque!
