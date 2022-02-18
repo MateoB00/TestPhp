@@ -16,4 +16,4 @@
         <a class="nav-link" href="<?= url("liste-articles") ?>">Liste de nos articles</a>
         <a class="nav-link" href="#"></a>
     </nav>
-    <div class="container">
+    <div class="container text-center">
