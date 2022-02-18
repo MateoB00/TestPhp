@@ -18,3 +18,9 @@ function url(string $route = 'home'): string
 {
     return 'index.php?route=' . $route;
 }
+
+function redirection(string $route)
+{
+    header('Location: ' . url($route));
+    die;
+}
