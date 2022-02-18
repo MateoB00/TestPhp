@@ -16,6 +16,7 @@ foreach ($articles as $article) { ?>
             <span>Ecrit le : <?= $article->date_de_publication ?></span>
             <a href="<?= url('article') ?>&id=<?= $article->id ?>" class="btn btn-info">L'article en profondeur</a>
             <a href="<?= url('modif') ?>&id=<?= $article->id ?>" class="btn btn-warning">Modifie ton article</a>
+            <a href="<?= url('suppr') ?>&id=<?= $article->id ?>" class="btn btn-danger">-> Poubelle</a>
         </div>
     </div>
 

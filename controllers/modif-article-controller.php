@@ -1,3 +1,4 @@
+
 <?php
 
 if (empty($_GET['id'])) error();
@@ -17,7 +18,7 @@ if (!empty($_POST)) {
         && !empty($_POST['auteur'])
         && !empty($_POST['date_de_publication'])
         && validateDate($_POST['date_de_publication'])
-        && substr($_POST['image'], -4) == '.jpg' || (substr($_POST['image'], -4) == '.png' || substr($_POST['image'], -5) == '.jpeg' || substr($_POST['image'], -4) == '.gif')
+        && (substr($_POST['image'], -4) == '.jpg' || substr($_POST['image'], -4) == '.png' || substr($_POST['image'], -5) == '.jpeg' || substr($_POST['image'], -4) == '.gif')
 
     ) {
         $article->titre = $_POST['titre'];

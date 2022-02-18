@@ -25,6 +25,9 @@ switch ($route) {
     case 'modif':
         include __DIR__ . '/controllers/modif-article-controller.php';
         break;
+    case 'suppr':
+        include __DIR__ . '/controllers/suppr-article-controller.php';
+        break;
 
     default:
         error();
