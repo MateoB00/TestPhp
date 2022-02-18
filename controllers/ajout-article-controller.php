@@ -5,9 +5,9 @@ if (!empty($_POST)) {
         !empty($_POST['titre'])
         && !empty($_POST['contenu'])
         && !empty($_POST['image'])
+        && filter_var($_POST['image'], FILTER_VALIDATE_URL) !== false
         && !empty($_POST['auteur'])
         && !empty($_POST['date_de_publication'])
-        && strlen($_POST['contenu'] >  150)
     ) {
 
         require_once __DIR__ . '/../models/Article.php';
