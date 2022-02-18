@@ -15,6 +15,7 @@ foreach ($articles as $article) { ?>
             <span><strong><?= mb_strtoupper($article->auteur) ?> </strong></span><br>
             <span>Ecrit le : <?= $article->date_de_publication ?></span>
             <a href="<?= url('article') ?>&id=<?= $article->id ?>" class="btn btn-info">L'article en profondeur</a>
+            <a href="<?= url('modif') ?>&id=<?= $article->id ?>" class="btn btn-warning">Modifie ton article</a>
         </div>
     </div>
 
