@@ -8,6 +8,10 @@ if (!empty($_POST)) {
         && filter_var($_POST['image'], FILTER_VALIDATE_URL) !== false
         && !empty($_POST['auteur'])
         && !empty($_POST['date_de_publication'])
+        && validateDate($_POST['date_de_publication'])
+        && substr($_POST['image'], -4) == '.jpg'
+        || substr($_POST['image'], -4) == '.png'
+        || substr($_POST['image'], -5) == '.jpeg'
     ) {
 
         require_once __DIR__ . '/../models/Article.php';
