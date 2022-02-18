@@ -1,6 +1,7 @@
 <?php
 
 require_once __DIR__ . "/parties/header.html.php";
+
 ?>
 
 <h1>Ajoute un article</h1>
@@ -40,7 +41,7 @@ require_once __DIR__ . "/parties/header.html.php";
     <div class="form-group row">
         <label for="date" class="col-12 col-form-label">Date de publication</label>
         <div class="col-12">
-            <input type="date" class="form-control" name="date_de_publication" id="date" placeholder="Date de publication" required>
+            <input type="date" class="form-control" name="date_de_publication" id="date" required>
         </div>
     </div>
 
